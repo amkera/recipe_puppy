@@ -1,0 +1,29 @@
+CLI class: interacts with the user. This is the user's 'remote'.
+
+Recipe Class: responsible for all created and stored recipe objects, that are instantiated from the API
+
+API class: class that pulls data from the API.
+
+
+
+
+CLI Class Notes:
+1. Welcome the user
+
+2. Interaction 1: Choose to enter the program, or exit the program.
+
+3. If they choose exit, they exit. If they choose enter:
+
+4. User sees a numbered list of recipes from the API, along with the total count of recipes that were loaded.
+
+5. Interaction 2: If they select a recipe, show them the title of the recipe, the ingredients, and the
+website that details the instructions.
+
+5. Interaction 3: User can select another recipe to view, or decide to leave the program.
+
+5. If they select exit, they will leave the program. If they select another recipe, they will view its details.
+
+
+
+API Class notes:
+Link to the API and instantiate all instances of recipes here in this class.
