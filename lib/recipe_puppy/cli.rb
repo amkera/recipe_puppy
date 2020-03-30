@@ -37,6 +37,12 @@ class RecipePuppy::CLI
     get_user_input2
   end 
   
+  def get_user_input2
+    puts "\nEnter the number of the recipe you'd like to see details about:\n"
+    user_input2 = gets.strip
+    recipe_choice_by_number(user_input2)
+  end
+  
   
 end 
 
