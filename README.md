@@ -25,9 +25,13 @@ Type:
 
 "gem install 'uri'" 
 
-and 
+, 
 
 "gem install 'json'"
+
+, and 
+
+"gem install 'httparty' "
 
 into the command line to install the necessary gems to begin the program. 
 
