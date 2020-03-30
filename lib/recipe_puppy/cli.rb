@@ -76,6 +76,10 @@ class RecipePuppy::CLI
     enter_or_exit
   end
   
+  def bye
+    puts "You chose 'exit'. See you later!"
+  end
+  
   
 end 
 
