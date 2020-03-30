@@ -11,8 +11,12 @@ class Recipe
   end 
   
   def save 
-    @@all << self 
+    @@all_recipes << self 
   end 
+  
+  def self.all
+    @@all_recipes
+  end
   
 end 
 
