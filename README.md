@@ -20,6 +20,16 @@ And then execute:
 Or install it yourself as:
 
     $ gem install recipe_puppy
+    
+Type:
+
+"gem install 'uri'" 
+
+and 
+
+"gem install 'json'"
+
+into the command line to install the necessary gems to begin the program. 
 
 ## Usage
 
