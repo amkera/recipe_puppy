@@ -1,10 +1,9 @@
-HELLO WORLD
+
 
 # RecipePuppy
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/recipe_puppy`. To experiment with that code, run `bin/console` for an interactive prompt.
+This is my first project as a Flatiron School of Engineering student. I created a command line interface application in Ruby that pulls data from an API of recipes, and asks the user which recipe they would like to see ingredients for. The app shows the ingredients, instructions, and title for each recipe.  
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
@@ -24,7 +23,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+To start the program, enter ./bin/executable into the command line. 
 
 ## Development
 
@@ -43,3 +42,5 @@ The gem is available as open source under the terms of the [MIT License](https:/
 ## Code of Conduct
 
 Everyone interacting in the RecipePuppy project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/'alluring-banner-0119'/recipe_puppy/blob/master/CODE_OF_CONDUCT.md).
+
+
