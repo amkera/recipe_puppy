@@ -71,6 +71,11 @@ class RecipePuppy::CLI
     end
   end
   
+  def try_again
+    puts "Sorry, I didn't understand that! Please try again."
+    enter_or_exit
+  end
+  
   
 end 
 
