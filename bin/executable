@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-#loads the recipe_puppy.rb file
+# Line of code above loads the recipe_puppy.rb file, which acts as my environment file. 
 
 require_relative '../lib/recipe_puppy'
 
