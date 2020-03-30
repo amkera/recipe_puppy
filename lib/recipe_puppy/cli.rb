@@ -57,6 +57,20 @@ class RecipePuppy::CLI
     end
   end
   
+  def other_recipe_or_exit
+    puts "\nTo view another recipe, enter the recipe number. To leave the classroom, type 'exit'. "
+    user_input3 = gets.strip
+    if user_input3.to_i > 0 && user_input3.to_i <= Recipe.all.count
+      recipe_choice_by_number(user_input3)
+    elsif user_input3 == 'exit'
+      bye
+      ##why doesn't this pop up: akerawala-JG5H:recipe_puppy akerawala$
+    else
+      puts "Sorry, I didn't understand that."
+      other_recipe_or_exit
+    end
+  end
+  
   
 end 
 
