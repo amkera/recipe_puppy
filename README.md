@@ -1,8 +1,6 @@
-
-
 # RecipePuppy
 
-This is my first project as a Flatiron School of Engineering student. I created a command line interface application in Ruby that pulls data from an API of recipes, and asks the user which recipe they would like to see ingredients for. The app shows the ingredients, instructions, and title for each recipe.  
+This is my first project as a Flatiron School of Engineering student. I created a command line interface application in Ruby that pulls data from an API of recipes, and asks the user which recipe they would like to see ingredients for. The app shows the ingredients, instructions, and title for each recipe. This project heavily showcases my object oriented programming knowledge. 
 
 
 ## Installation
