@@ -18,5 +18,11 @@ class Recipe
     @@all_recipes
   end
   
+  def self.find_by_name(title)
+    self.all.find do |recipe| #looking though @@all_recipes
+      recipe.title == title
+    end
+  end
+  
 end 
 
