@@ -23,6 +23,18 @@ class RecipePuppy::CLI
   end 
   
   def show_recipes_by_index
+    puts "Loading recipes...\n"
+    sleep(2)
+    
+    Recipe.all.each.with_index(1) do |recipe, index| #begin counting at 1
+      puts "#{index}. #{recipe.title.split(" ").join(" ")}"
+      sleep(0.2)
+    end
+    
+    puts "\nTotal number of recipes: #{Recipe.all.count}.\n"
+    
+    sleep(1)
+    get_user_input2
   end 
   
   
