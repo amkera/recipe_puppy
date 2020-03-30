@@ -11,6 +11,15 @@ class RecipePuppy::CLI
   end 
   
   def enter_or_exit
+    user_input1 = gets.strip.downcase
+    if user_input1 == "enter"
+      show_recipes_by_index
+      enter_or_exit
+    elsif user_input1  == "exit"
+      bye
+    else
+      try_again
+    end
   end 
   
   def show_recipes_by_index
