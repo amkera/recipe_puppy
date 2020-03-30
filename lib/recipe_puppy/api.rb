@@ -8,7 +8,7 @@ class API
     response = Net::HTTP.get(uri)
     parsed_hash = JSON.parse(response)
     results_array = parsed_hash['results']
-    results_array.each do |recipe| #each recipe is a hash
+    results_array.each do |recipe| 
       Recipe.new(recipe)
     end
   end
