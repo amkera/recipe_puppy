@@ -21,7 +21,7 @@ Or install it yourself as:
     
 Type:
 
-"gem install 'uri'" 
+"gem install 'uri-ssh_git'" 
 
 , 
 
