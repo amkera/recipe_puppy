@@ -43,6 +43,20 @@ class RecipePuppy::CLI
     recipe_choice_by_number(user_input2)
   end
   
+  def recipe_choice_by_number(number)
+    sleep(1)
+    if number.to_i > 0 && number.to_i <= Recipe.all.count
+      selection = Recipe.all[number.to_i-1]
+      puts "\nRECIPE TITLE: #{selection.title.split(" ").join(" ")}"
+      puts "\nINSTRUCTIONS: #{selection.href}"
+      puts "\nINGREDIENTS: #{selection.ingredients.split(" ").uniq.join(" ")}"
+      other_recipe_or_exit
+    else
+      puts "Invalid entry! Please enter a number between 1 and #{Recipe.all.count}."
+      get_user_input2
+    end
+  end
+  
   
 end 
 
