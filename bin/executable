@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 #loads the recipe_puppy.rb file
+
 require_relative '../lib/recipe_puppy'
 
 RecipePuppy::CLI.new.welcome
