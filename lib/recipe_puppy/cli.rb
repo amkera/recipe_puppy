@@ -2,9 +2,9 @@ class RecipePuppy::CLI
   
   def welcome
     puts "\n\nWelcome to Puerto Rican Cooking 101!\n\n"
-    sleep(2)
+    sleep(1)
     puts "To enter the classroom and see recipes, type 'enter'.\n\n"
-    sleep(2)
+    sleep(1)
     puts "Or, if you prefer to order takeout, type 'exit'.\n\n"
     API.get_recipes
     enter_or_exit
@@ -32,8 +32,6 @@ class RecipePuppy::CLI
     end
     
     puts "\nTotal number of recipes: #{Recipe.all.count}.\n"
-    
-    sleep(1)
     get_user_input2
   end 
   
@@ -48,8 +46,11 @@ class RecipePuppy::CLI
     if number.to_i > 0 && number.to_i <= Recipe.all.count
       selection = Recipe.all[number.to_i-1]
       puts "\nRECIPE TITLE: #{selection.title.split(" ").join(" ")}"
+      sleep(0.2)
       puts "\nINSTRUCTIONS: #{selection.href}"
+      sleep(0.2)
       puts "\nINGREDIENTS: #{selection.ingredients.split(" ").uniq.join(" ")}"
+      sleep(0.2)
       other_recipe_or_exit
     else
       puts "Invalid entry! Please enter a number between 1 and #{Recipe.all.count}."
@@ -58,7 +59,7 @@ class RecipePuppy::CLI
   end
   
   def other_recipe_or_exit
-    puts "\nTo view another recipe, enter the recipe number. To leave the classroom, type 'exit'. "
+    puts "\nTo view another recipe, enter the recipe number. \nTo leave the classroom, type 'exit'. "
     user_input3 = gets.strip
     if user_input3.to_i > 0 && user_input3.to_i <= Recipe.all.count
       recipe_choice_by_number(user_input3)
