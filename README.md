@@ -1,8 +1,10 @@
 # RecipePuppy
 
-This is my first project as a Flatiron School of Engineering student. I created a command line interface application in Ruby that pulls data from an API of recipes, and asks the user which recipe they would like to see ingredients for. The app shows the ingredients, instructions, and title for each recipe. 
+This is my first project as a Flatiron School of Engineering student. I created a command line interface application in Ruby that pulls data from an API of recipes, and asks the user which recipe they would like to see ingredients for. There are multiple user interactions in this application. 
 
-This project heavily showcases my object oriented programming knowledge. 
+The application shows the ingredients, instructions, and title for each recipe. 
+
+Enjoy!
 
 
 ## Installation
@@ -26,22 +28,22 @@ Or install it yourself as:
     
 Type:
 
-"gem install 'uri-ssh_git'" 
+`gem install 'uri-ssh_git'`
 
 , 
 
-"gem install 'json'"
+`gem install 'json'`
 
 , and 
 
-"gem install 'httparty' "
+`gem install 'httparty'`
 
 into the command line to install the necessary gems to begin the program. 
 
 ## Usage
-From the command line, change directory (cd) into the bin folder by typing cd bin
+From the command line, change directory (cd) into the recipe_puppy application by typing `cd bin`
 
-To start the program, enter ./bin/executable into the command line. 
+To start the program, enter `./bin/executable` into the command line. 
 
 ## Development
 
