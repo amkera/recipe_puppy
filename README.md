@@ -1,9 +1,14 @@
 # RecipePuppy
 
-This is my first project as a Flatiron School of Engineering student. I created a command line interface application in Ruby that pulls data from an API of recipes, and asks the user which recipe they would like to see ingredients for. The app shows the ingredients, instructions, and title for each recipe. This project heavily showcases my object oriented programming knowledge. 
+This is my first project as a Flatiron School of Engineering student. I created a command line interface application in Ruby that pulls data from an API of recipes, and asks the user which recipe they would like to see ingredients for. The app shows the ingredients, instructions, and title for each recipe. 
+
+This project heavily showcases my object oriented programming knowledge. 
 
 
 ## Installation
+
+As of Version 1.0, there is no gem published for download. To view and access this command line interface project, please see https://github.com/amkera/recipe_puppy
+
 
 Add this line to your application's Gemfile:
 
@@ -34,6 +39,7 @@ Type:
 into the command line to install the necessary gems to begin the program. 
 
 ## Usage
+From the command line, change directory (cd) into the bin folder by typing cd bin
 
 To start the program, enter ./bin/executable into the command line. 
 
